@@ -1,13 +1,15 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 10vh 15vw;
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='1500' preserveAspectRatio='none' viewBox='0 0 2000 1500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1059%26quot%3b)' fill='none'%3e%3crect width='2000' height='1500' x='0' y='0' fill='rgba(64%2c 27%2c 143%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c759.79C140.713%2c745.423%2c261.058%2c667.839%2c380.201%2c591.604C499.569%2c515.225%2c626.441%2c441.6%2c692.894%2c316.434C761.267%2c187.653%2c779.943%2c34.965%2c751.674%2c-108.074C724.164%2c-247.274%2c617.668%2c-348.8%2c538.194%2c-466.347C446.65%2c-601.746%2c404.445%2c-797.807%2c249.726%2c-850.489C95.371%2c-903.047%2c-69.034%2c-800.307%2c-211.929%2c-721.764C-333.597%2c-654.888%2c-420.401%2c-547.521%2c-503.632%2c-436.399C-581.463%2c-332.487%2c-663.414%2c-226.523%2c-679.372%2c-97.679C-695.183%2c29.977%2c-630.121%2c147.379%2c-591.117%2c269.954C-546.312%2c410.76%2c-547.375%2c580.413%2c-433.599%2c674.694C-317.843%2c770.617%2c-149.557%2c775.06%2c0%2c759.79' fill='%23341674'%3e%3c/path%3e%3cpath d='M2000 2480.0190000000002C2184.457 2473.605 2245.732 2219.232 2382.758 2095.582 2491.509 1997.4470000000001 2654.824 1959.9479999999999 2721.0969999999998 1829.314 2788.193 1697.058 2767.015 1539.37 2738.797 1393.777 2711.603 1253.468 2631.534 1137.65 2562.761 1012.365 2474.391 851.381 2449.195 619.858 2277.785 553.95 2108.503 488.861 1939.874 651.625 1766.973 706.382 1598.579 759.711 1399.548 746.559 1274.7820000000002 871.595 1147.8890000000001 998.7629999999999 1111.384 1191.644 1103.664 1371.126 1096.4070000000002 1539.843 1139.662 1709.477 1232.6799999999998 1850.423 1318.339 1980.218 1479.521 2024.1660000000002 1599.7440000000001 2122.81 1740.846 2238.5860000000002 1817.589 2486.362 2000 2480.0190000000002' fill='%234c20aa'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1059'%3e%3crect width='2000' height='1500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.glass {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
